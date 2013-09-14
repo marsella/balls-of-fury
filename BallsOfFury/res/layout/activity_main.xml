@@ -28,13 +28,13 @@
         android:ems="10" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/buttonLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:onClick="foo"
+        android:onClick="onClickLogin"
         android:text="Button" />
 
 </RelativeLayout>

@@ -7,5 +7,6 @@
     <string name="title_activity_score_report">ScoreReport</string>
     <string name="hello_world">Hello world!</string>
     <string name="opponent">Your Opponent</string>
+    <string name="FacebookAppId">629664600398684</string>
 
 </resources>

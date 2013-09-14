@@ -4,5 +4,8 @@
     <string name="app_name">Balls of Fury</string>
     <string name="action_settings">Settings</string>
     <string name="enter_name">Please enter your name</string>
+    <string name="title_activity_score_report">ScoreReport</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="opponent">Your Opponent</string>
 
 </resources>

@@ -34,6 +34,7 @@
         android:layout_below="@+id/editText1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
+        android:onClick="foo"
         android:text="Button" />
 
 </RelativeLayout>

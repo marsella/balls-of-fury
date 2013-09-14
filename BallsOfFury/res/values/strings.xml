@@ -8,5 +8,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="opponent">Your Opponent</string>
     <string name="FacebookAppId">629664600398684</string>
+    <string name="title_activity_login">Login</string>
 
 </resources>

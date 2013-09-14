@@ -47,6 +47,7 @@ public class ScoreReport extends Activity {
 			}
 			friends = hm.keySet().toArray(new String[0]);
 		} catch (JSONException e) {
+			Toast.makeText(getApplicationContext(), "T T", Toast.LENGTH_LONG).show();
 		}
 		
 		player1 = (TextView) findViewById(R.id.player1);
@@ -98,7 +99,7 @@ public class ScoreReport extends Activity {
 		
 		String request = "{" +
 			"\"player1\": \""+ player1.getText() + "\"," +
-			"\"player2\": \""+ hm.get(player2.getText()) + "\"," +
+			"\"player2\": \""+ hm.get(player2.getText().toString()) + "\"," +
 			"\"score1\": \""+ seekBarValue.getText() + "\"," +
 			"\"score2\": \""+ seekBarValue2.getText() + "\"" +
 			"}";

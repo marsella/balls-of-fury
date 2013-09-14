@@ -54,7 +54,8 @@
         android:layout_below="@+id/seekBar1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:text="0" />
+        android:text="0"
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/score2"
@@ -63,7 +64,8 @@
         android:layout_below="@+id/seekBar2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:text="0" />
+        android:text="0"
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/button1"

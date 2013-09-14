@@ -1,6 +1,11 @@
 package com.example.ballsoffury;
 
 
+import java.io.InputStream;
+import java.util.Scanner;
+
+import org.json.JSONObject;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +28,17 @@ public class MainActivity extends Activity {
 	}
 	
 	public void foo(View v){
+		
+		InputStream is = getResources().openRawResource(R.raw.fb);
+		
+		String str = "";
+		Scanner scanner = new Scanner(is, "UTF-8").useDelimiter("\\A");
+		if (scanner.hasNext())
+			str = scanner.next();
+				
         Intent intent = new Intent(this, ScoreReport.class);
+        intent.putExtra("friends", str);
+        
         startActivity(intent);
 	}
 
